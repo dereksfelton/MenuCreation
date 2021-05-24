@@ -27,6 +27,7 @@ public class TextController : MonoBehaviour
         AssignTextAreaColors();
     }
 
+    // update the sample text and background based on color selection and dark mode status, respectively.
     private void AssignTextAreaColors()
     {
         if (string.IsNullOrEmpty(TextOptions.TextColor)) TextOptions.TextColor = "Gray";
