@@ -21,6 +21,7 @@ public class TextController : MonoBehaviour
         AssignTextAreaColors();
     }
 
+    // update based on toggle of dark mode
     public void onDarkModeToggle()
     {
         TextOptions.InDarkMode = !TextOptions.InDarkMode;
